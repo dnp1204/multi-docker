@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t dnp1204/react-test -f Dockerfile.dev ./client
+  - docker build -t dnp1204/react-test -f ./client/Dockerfile.dev ./client
 
 script:
   - docker run dnp1204/react-test npm run test -- --coverage
