@@ -8,6 +8,10 @@
     "pghost",
     "pgpassword",
     "pgport",
-    "pguser"
+    "pguser",
+    "AWSEBDockerrun",
+    "AWSEBDockerrunVersion",
+    "Dockerrun",
+    "AWSEB"
   ]
 }
